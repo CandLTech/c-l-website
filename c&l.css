@@ -1,145 +1,153 @@
 *{
-    background-color: #f0f0f0;
+    background-color: #fbfdff;
     width: auto;
     height: fit-content;
     background:fixed;
-}
-
-header{
-    background: white;
-    width: 700%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-bottom: 2px solid black;
-    box-shadow: 2px 2px 2px 2px white;
-    position: fixed;
 
 }
-
-nav{
-    width: 700%;
-    text-decoration: none;
-    margin-top: 0px;
-    position: relative;
-    background: chocolate;
-
-
+h1{
+    color: green;
 }
 
-
-nav p{
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 0px;
-    background: chocolate;
-    padding: 20px;
-    color: aliceblue;
-    box-shadow:0 .5rem 1rem rgba(209, 10, 10, 0.15)!important;
-
-}
 
 .payment{
-    float: right;
-    border: 5px solid lawngreen;
-    border-style:groove;
+    float:right;
+    border: 2px solid rgb(120, 124, 116);
+    border-style:inset;
     align-content: center;
-    color: black;
-    background: lightsalmon;
+    color: rgb(251, 247, 247);
+    background: black;
     font-size: 14px;
     font-weight: bold;
-    padding: 2px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-.SERVICES{
-    min-width: 300px ;
-    display: flex;
-    min-width: 300px;
-    margin-top: 0px;
-    margin-left: 1px;
-    margin-right: 50px;
-    padding: 50px;
-}
 
 .OFFLINE{
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
     align-items: center;
-    min-width: 300px;
+    max-width: 100%;
+    min-width: auto;
     width: 200%;
-    margin-top: 50px;
+    margin-top: 0px;
     box-sizing: border-box;
     border: 1px solid white;
-    color: black;
     height: auto;
-    background-color: white;
+    background-color: #d2e0f3;
     border-bottom-right-radius: 20px;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px rgb(227, 221, 221);
     padding-left: 20px;
     padding-bottom: 10px;
     cursor:pointer;
+    overflow: scroll;
 }
 
 
-.OFFLINE ul,h1,li{
+.OFFLINE ul,li{
     background: white;
     width: fit-content;
     font-size: 18px;
 
 }
 hr{
-    width: 40%;
+    width: 100%;
     margin-left: 0px;
 }
 
-.images{
+.main{
+    background: white;
+    padding: 10px;
     float: left;
-    margin-top: 0px;
+    margin-top: 10px;
     height: auto;
-    width: 90%;
-    border: 2px solid whitesmoke;
+    width: 85%;
+    border: 2px solid rgb(227, 229, 235);
     border-bottom-right-radius: 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow:0 .5rem 1rem rgb(86, 71, 140)!important;
+    box-shadow: -1px 5px 5px 8px black;
 }
 
 
 .NTSA{
+    padding: 10px;
+    background-color: white;
+    margin-top: 30px;
     border: 2px solid rgb(227, 229, 235);
-    border-bottom-right-radius: 20px;
-    width: 90%;
-    margin-top: 0px;
-    box-shadow:0 .5rem 1rem rgb(72, 75, 147)!important;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: -1px 4px 4px 5px black;
+
 }
 
 
 .graphics{
+    padding: 10px;
     border: 2px solid rgb(227, 229, 235);
-    border-bottom-right-radius: 20px;
-    width: 90%;
-    margin-top: 0px;
-    box-shadow:0 .5rem 1rem rgb(72, 75, 147)!important;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 20px;
+    background: white;
+    box-shadow: -1px 4px 4px 5px black;
+
+
 }
 
 .entertainment{
+    padding: 10px;
     margin: 0px;
     border: 2px solid rgb(227, 229, 235);
-    border-bottom-right-radius: 20px;
-    width: 90%;
-    box-shadow:0 .5rem 1rem rgb(72, 75, 147)!important;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: -1px 3px 4px 5px black;
+
 }
 
 .contacts{
+    float: inline-end;
+    padding: 10px;
     border: 2px solid rgb(227, 229, 235);
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
     width: fit-content;
-    box-shadow:0 .5rem 1rem rgb(72, 75, 147)!important;
+    box-shadow: 10 rgb(54 127 211 / 18%);
+    margin-top: 20px;
+    background: rgb(235, 231, 231);
 }
 
+.us ul{
+    background: rgb(235, 231, 231) ;
+
+}
+
+.main:hover{
+    box-shadow: -1px 5px 5px 8px white;
+    background: white;
+    cursor:context-menu;
+}
+
+.NTSA:hover{
+    box-shadow: -1px 5px 5px 8px white;
+    background: white;
+    cursor:context-menu;
 
 
-.contacts,li:hover{
-    border: 1px solid rgb(21, 188, 127);
-    box-shadow: 3px 3px 3px 3px rgb(28, 217, 82);
+}.graphics:hover{
+    box-shadow: -1px 5px 5px 8px white;
+    background: white;
+    cursor:context-menu;
 
 
+}.entertainment:hover{
+    box-shadow: -1px 5px 5px 8px white;
+    background: white;
+    cursor:context-menu;
+
+
+}
+.entainmentimg{
+    width: 100%;
 }
