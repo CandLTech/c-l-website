@@ -35,14 +35,13 @@ h1{
     box-sizing: border-box;
     border: 1px solid white;
     height: auto;
-    background-color: #d2e0f3;
+    background-color: lightslategrey;
     border-bottom-right-radius: 20px;
     align-items: center;
     box-shadow: 2px 2px 2px 2px rgb(227, 221, 221);
     padding-left:1px;
     padding-bottom: 10px;
     cursor:pointer;
-    overflow: scroll;
 }
 
 
@@ -58,56 +57,96 @@ hr{
 }
 
 .main{
-    margin-left: 20px;
-    background: white;
-    padding: 20px;
-    float: left;
-    margin-top: 10px;
-    height: auto;
-    width: 85%;
-    border: 2px solid rgb(227, 229, 235);
-    border-bottom-right-radius: 20px;
-    border-radius: 10px;
+    background: rgb(8, 80, 223);
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    height: 300px;
     box-sizing: border-box;
-    box-shadow: -1px 2px 2px 1px black;
+
+}
+.goal{
+    float: right;
+    height: 200px;
+    margin-top: 0px;
+    margin-right: 10px;
+    border-bottom-left-radius: 200px;
+
+
+}
+.navigate{
+    border: 0px solid white;
+    width: 100%;
+    height: 40px;
+    background: white;
+    justify-content: space-between;
+    padding: 9px;
+
+}
+.links{
+    align-content: center;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-top: 7px;
+
 }
 
+.links a{
+    text-decoration: none;
+    border: 1px solid rgb(49, 47, 47);
+    border-radius: 20px;
+    margin: 3px;
+    padding: 2px;
+    color: white;
+    background: lightslategray;
+    box-shadow: -2px 1px 5px 2px rgb(59, 57, 57);
+
+}
+a:hover{
+    background: white;
+    color: black;
+    box-shadow: -2px 1px 5px 2px red;
+    
+}
 
 .NTSA{
     margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     background-color: white;
-    margin-top: 30px;
-    border: 2px solid rgb(227, 229, 235);
-    border-radius: 20px;
-    width: 80%;
-    box-shadow: -1px 2px 2px 1px black;
+    margin-top: 70px;
+    border: 0px solid rgb(227, 229, 235);
+    border-radius: 3px;
 
 }
 
 
 .graphics{
     margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
     padding: 10px;
-    border: 2px solid rgb(227, 229, 235);
-    border-radius: 20px;
-    width: 80%;
-    margin-top: 20px;
-    background: white;
-    box-shadow: -1px 2px 2px 1px black;
+    border: 0px solid rgb(227, 229, 235);
+    border-radius: 3px;
+    background: rgb(76, 34, 102);
+}
+
+.graphic{
+    box-shadow: -2px 5px 5px 0px lightgrey;
 
 
 }
 
 .entertainment{
     margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
     padding: 10px;
-    border: 2px solid rgb(227, 229, 235);
-    border-radius: 20px;
+    border: 0px solid rgb(227, 229, 235);
+    border-radius: 3px;
     background: white;
-    width: 80%;
-    box-shadow: -1px 2px 2px 1px black;
-
 }
 
 .contacts{
@@ -134,44 +173,43 @@ hr{
     text-align: left;
     color: black;
 }
-.main:hover{
-    box-shadow: -1px 5px 5px 8px white;
-    background: white;
-    cursor:context-menu;
-}
-
-.NTSA:hover{
-    box-shadow: -1px 5px 5px 8px white;
-    background: white;
-    cursor:context-menu;
-
-
-}.graphics:hover{
-    box-shadow: -1px 5px 5px 8px white;
-    background: white;
-    cursor:context-menu;
-
-
-}.entertainment:hover{
-    box-shadow: -1px 5px 5px 8px white;
-    background: white;
-    cursor:context-menu;
-
-
-}
 .entainmentimg{
-    width: 100%;
+    width: 20%;
+}
+.movie{
+    width: 70%;
 }
 
+.movie1{
+    border: 0px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    background: black;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+    padding: 20px;
+    
+}
+
+.movie2{
+    margin-top: 10px;
+    border: 0px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    background: black;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+    padding: 20px;
+    
+}
 .location{
-    margin: 0px;
-    margin-top: 20px;
+    margin: 20px;
+    margin-top: 10px;
     border: 2px solid d2e0f3;
-    background: white;
+    background: rgb(249, 248, 248);
     display: flex;
-    border-radius: 10px;
-    height: 200px;
-    margin-bottom: 5px;
+    border-radius: 3px;
+    height: 100px;
     padding: 0px;
 
 }
@@ -179,7 +217,7 @@ hr{
 .icon{
     float: left;
     height: 80px;
-    margin: 40px;
+    margin: 50px;
     background: white;
     border-radius: 540px;
 
@@ -197,9 +235,11 @@ hr{
 
 .about{
     background: white;
-    margin: 0px;
+    margin: 20px;
     padding: 10px;
-    border: 1px solid black;
+    border: 0px solid rgb(193, 187, 187);
+    border-radius: 3px;
+
 }
 
 .tell{
@@ -227,4 +267,53 @@ hr{
     color: darkcyan;
     font-style: italic;
     font-weight: bold;
+}
+
+.theater{
+    background: #fdfbfb;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.work{
+    float: right;
+    height: 300px;
+}
+.service-contacts{
+    margin-top: 30px;
+    position: absolute;
+    height: 200px;
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+}
+.services{
+    width: fit-content;
+    height: 285px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    border: 0px solid white;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+
+}
+
+.contact                    {
+    width: fit-content;
+    height: 200px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    border: 0px solid white;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+
 }
