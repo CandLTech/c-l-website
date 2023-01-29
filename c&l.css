@@ -25,7 +25,6 @@ h1{
 
 
 .OFFLINE{
-    margin-left: auto;
     margin-right: auto;
     display:grid;
     align-items: center;
@@ -40,7 +39,7 @@ h1{
     border-bottom-right-radius: 20px;
     align-items: center;
     box-shadow: 2px 2px 2px 2px rgb(227, 221, 221);
-    padding-left: 20px;
+    padding-left:1px;
     padding-bottom: 10px;
     cursor:pointer;
     overflow: scroll;
@@ -59,8 +58,9 @@ hr{
 }
 
 .main{
+    margin-left: 20px;
     background: white;
-    padding: 10px;
+    padding: 20px;
     float: left;
     margin-top: 10px;
     height: auto;
@@ -69,60 +69,71 @@ hr{
     border-bottom-right-radius: 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: -1px 5px 5px 8px black;
+    box-shadow: -1px 2px 2px 1px black;
 }
 
 
 .NTSA{
+    margin-left: 20px;
     padding: 10px;
     background-color: white;
     margin-top: 30px;
     border: 2px solid rgb(227, 229, 235);
     border-radius: 20px;
     width: 80%;
-    box-shadow: -1px 4px 4px 5px black;
+    box-shadow: -1px 2px 2px 1px black;
 
 }
 
 
 .graphics{
+    margin-left: 20px;
     padding: 10px;
     border: 2px solid rgb(227, 229, 235);
     border-radius: 20px;
     width: 80%;
     margin-top: 20px;
     background: white;
-    box-shadow: -1px 4px 4px 5px black;
+    box-shadow: -1px 2px 2px 1px black;
 
 
 }
 
 .entertainment{
+    margin-left: 20px;
     padding: 10px;
-    margin: 0px;
     border: 2px solid rgb(227, 229, 235);
     border-radius: 20px;
+    background: white;
     width: 80%;
-    box-shadow: -1px 3px 4px 5px black;
+    box-shadow: -1px 2px 2px 1px black;
 
 }
 
 .contacts{
-    float: inline-end;
+    height: 200px;
+    margin-left: 0px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    box-shadow: -1px 2px 2px 2px black;
+    display: inline-table;
     padding: 10px;
-    border: 2px solid rgb(227, 229, 235);
-    border-radius: 20px;
-    width: fit-content;
-    box-shadow: 10 rgb(54 127 211 / 18%);
-    margin-top: 20px;
-    background: rgb(235, 231, 231);
-}
 
-.us ul{
-    background: rgb(235, 231, 231) ;
 
 }
+.contacts:hover{
+    position: relative;
+    box-shadow: -3px 5px 5px 5px black;
+}
 
+.call-us{
+    height: 100px;
+    border: 1px solid white;
+}
+.contacts h2{
+    text-align: left;
+    color: black;
+}
 .main:hover{
     box-shadow: -1px 5px 5px 8px white;
     background: white;
@@ -150,4 +161,70 @@ hr{
 }
 .entainmentimg{
     width: 100%;
+}
+
+.location{
+    margin: 0px;
+    margin-top: 20px;
+    border: 2px solid d2e0f3;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 5px;
+    padding: 0px;
+
+}
+
+.icon{
+    float: left;
+    height: 80px;
+    margin: 40px;
+    background: white;
+    border-radius: 540px;
+
+}
+
+.directions{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+    margin-top: 40px;
+    color: lightseagreen;
+    margin-left: 0px;
+}
+
+.about{
+    background: white;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tell{
+    border: 0px solid lightgray;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+}
+.us{
+    float: left;
+    height: 200px;
+}
+.story{
+    margin-top: 0px;
+    box-shadow: 0px 2px 2px 2px rgb(246, 199, 199);
+    height: 190px;
+    border-top: 0px;
+}
+
+.story p{
+    text-align: center;
+    padding: 60px;
+    font-size: 17.5px;
+    color: darkcyan;
+    font-style: italic;
+    font-weight: bold;
 }
