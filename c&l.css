@@ -35,13 +35,18 @@ h1{
     box-sizing: border-box;
     border: 1px solid white;
     height: auto;
-    background-color: lightslategrey;
+    background-color: rgba(218, 222, 222, 0);
     border-bottom-right-radius: 20px;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px rgb(227, 221, 221);
     padding-left:1px;
     padding-bottom: 10px;
+    padding-top: 20px;
     cursor:pointer;
+}
+
+h1{
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 
@@ -60,56 +65,16 @@ hr{
     background: rgb(8, 80, 223);
     padding: 0px;
     margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
     border-radius: 5px;
-    height: 300px;
+    height: 400px;
     box-sizing: border-box;
-
-}
-.goal{
-    float: right;
-    height: 200px;
-    margin-top: 0px;
-    margin-right: 10px;
-    border-bottom-left-radius: 200px;
+    box-shadow: -2px 5px 5px 0px white;
 
 
 }
-.navigate{
-    border: 0px solid white;
-    width: 100%;
-    height: 40px;
-    background: white;
-    justify-content: space-between;
-    padding: 9px;
 
-}
-.links{
-    align-content: center;
-    text-decoration: none;
-    justify-content: space-between;
-    margin-top: 7px;
-
-}
-
-.links a{
-    text-decoration: none;
-    border: 1px solid rgb(49, 47, 47);
-    border-radius: 20px;
-    margin: 3px;
-    padding: 2px;
-    color: white;
-    background: lightslategray;
-    box-shadow: -2px 1px 5px 2px rgb(59, 57, 57);
-
-}
-a:hover{
-    background: white;
-    color: black;
-    box-shadow: -2px 1px 5px 2px red;
-    
-}
 
 .NTSA{
     margin-left: 20px;
@@ -118,6 +83,7 @@ a:hover{
     background-color: white;
     margin-top: 70px;
     border: 0px solid rgb(227, 229, 235);
+    box-shadow: -2px 5px 5px 0px lightgrey;
     border-radius: 3px;
 
 }
@@ -130,11 +96,15 @@ a:hover{
     padding: 10px;
     border: 0px solid rgb(227, 229, 235);
     border-radius: 3px;
-    background: rgb(76, 34, 102);
+    background: rgb(234, 228, 238);
+    box-shadow: -2px 5px 5px 0px lightgrey;
 }
 
 .graphic{
     box-shadow: -2px 5px 5px 0px lightgrey;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
 
 
 }
@@ -183,11 +153,11 @@ a:hover{
 .movie1{
     border: 0px solid white;
     border-radius: 5px;
-    width: fit-content;
+    width: 100%;
     height: auto;
-    background: black;
+    background: rgb(47, 47, 47);
     box-shadow: -2px 5px 5px 0px lightgrey;
-    padding: 20px;
+    padding: 0px;
     
 }
 
@@ -195,31 +165,32 @@ a:hover{
     margin-top: 10px;
     border: 0px solid white;
     border-radius: 5px;
-    width: fit-content;
+    width: 100%;
     height: auto;
     background: black;
     box-shadow: -2px 5px 5px 0px lightgrey;
-    padding: 20px;
+    padding: 0px;
     
 }
 .location{
     margin: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: 2px solid d2e0f3;
-    background: rgb(249, 248, 248);
+    background: rgb(8, 80, 223);
     display: flex;
     border-radius: 3px;
-    height: 100px;
+    height: 20px;
     padding: 0px;
 
 }
 
 .icon{
     float: left;
-    height: 80px;
-    margin: 50px;
+    height: 70px;
+    margin: 0px;
     background: white;
     border-radius: 540px;
+    box-shadow: -2px 5px 5px 0px lightgrey;
 
 }
 
@@ -228,14 +199,14 @@ a:hover{
     font-weight: bold;
     margin: 10px;
     position: relative;
-    margin-top: 40px;
-    color: lightseagreen;
-    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(196, 219, 217);
+    margin-left: 10px;
 }
 
 .about{
     background: white;
-    margin: 20px;
+    margin: 0px;
     padding: 10px;
     border: 0px solid rgb(193, 187, 187);
     border-radius: 3px;
@@ -244,7 +215,7 @@ a:hover{
 
 .tell{
     border: 0px solid lightgray;
-    position: relative;
+    margin-left: 5px;
     text-align: center;
     box-sizing: border-box;
     box-shadow: -2px 5px 5px 0px lightgrey;
@@ -277,6 +248,10 @@ a:hover{
     margin-bottom: 5px;
     text-align: center;
     font-size: 20px;
+    box-shadow: -2px 5px 5px 0px lightgrey;
+}
+.theater li{
+    font-size: 20px;
 }
 
 .work{
@@ -301,10 +276,9 @@ a:hover{
     border-radius: 10px;
     padding: 5px;
     box-shadow: -2px 5px 5px 0px lightgrey;
-
 }
 
-.contact                    {
+.contact{
     width: fit-content;
     height: 200px;
     margin-top: 150px;
@@ -316,4 +290,12 @@ a:hover{
     margin-left: 20px;
     box-shadow: -2px 5px 5px 0px lightgrey;
 
+}
+
+/*location animation*/
+
+
+span{
+    color: whitesmoke;
+    font-size: 20px;
 }
