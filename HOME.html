@@ -3,11 +3,43 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="c&l.css">
     <head>
+
 </head>
+
 <body>
 <div class="OFFLINE">
     <h1>C & L TECH HUB.</h1>
     <hr>
+    <nav>
+        <div class="mobile-container">
+        <div class="topnav">
+          <a href="HOME.html" class="active">HOME</a>
+          <div id="myLinks">
+            <a onclick="document.getElementById('id01').style.display='block'" >PAYMENTS</a>
+            <a href="#">OUR CONTACTS</a>
+            <a href="#">NEWS</a>
+          </div>
+
+        <div class="icon1" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div> 
+        </div>
+        
+        
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+                </nav>
+
+
 <div class="main">
     <div class="location">
         <div><img src="location.jpg" alt="" class="icon"></div>
@@ -111,5 +143,46 @@
 
 
 </div>
+
+<div id="id01" class="modal">
+
+    <form>
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+  
+  
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <div class="steps">
+        <h3>PAYMENT INSTRUCTIONS</h3>
+        <ol class="step">
+          <li>Go To M-pesa menu</li><br>
+          <li>Select Lipa na Mpesa</li><br>
+          <li>Enter paybill number: (247247)</li><br>
+          <li>Enter Account number:<b>0707789302</b></li><br>
+          <li>Enter amount</li><br>
+          <li>Enter your M-pesa pin and confirm payment</li><br>
+          <p>NOTE:Please wait for C&L to confirm payment on it's end.<br>THANK YOU OUR VALUED CUSTOMER</p>
+        </ol>
+      </div>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      </div>
+    </form>
+  </div>
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+
 
 </body>
