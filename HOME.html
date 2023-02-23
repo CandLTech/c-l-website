@@ -2,9 +2,11 @@
     <i class="fa-solid fa-location-dot"></i>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="c&l.css">
-    <head>
+<head>
+  <link rel="stylesheet" href="https://pyscript.net/latest/c&l.css" />
+  <script defer src="https://pyscript.net/latest/python K-PAY.txt"></script>
+ </head>
 
-</head>
 
 <body>
 <div class="OFFLINE">
@@ -211,6 +213,27 @@
       }
   }
   </script>
+
+<div class="PAY">
+<py-repl>
+  print("Hello Customer and welcome to K-PAY.")
+print(" ")
+print("""CHOOSE
+      1.To check balance
+      2.To open Account
+      3.TO send money
+      4.Get loan""")
+print(" ")
+choice = int(input("ENTER YOUR CHOICE 1-4 "))
+print( )
+choice = 1 or 2 or 3 or 4
+
+if choice == 1:
+    balance = 100
+    user= input("Enter your user name to check balance ")
+    print(f'Dear', user, '.Your balance is Ksh ', balance)
+</py-repl>
+</div>
 
 <footer class="footer">
   <img src="IT.jpg" class="footer-img" alt="">
