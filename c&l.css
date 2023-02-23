@@ -507,23 +507,3 @@ span{
     }
   }
 
-  .footer{
-    margin-top: 10px;
-    background: black;
-    height: 200px;
-
-  }
-
-  .footer-img{
-    float: right;
-    width: 50%;
-    height: 200px;
-  }
-
-  .PAY{
-    width: 50%;
-    border-radius: 20px;
-    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
-    background: lightblue;
-
-  }
