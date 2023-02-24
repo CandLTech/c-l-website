@@ -379,6 +379,7 @@ span{
     width: 94%;
     opacity: 0.2;
     border-radius: 10px;
+    height: max-content;
   }
 
   .post:hover{
