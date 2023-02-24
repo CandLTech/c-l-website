@@ -132,33 +132,38 @@ hr{
     color: black;
 }
 .entainmentimg{
-    width: 20%;
+  opacity: 0.35;
+  width: 20%;
+  border-radius: 10px;
+}
+.entainmentimg:hover{
+  width: 20%;
+  opacity: 1.75;
+  transition: 1s;
 }
 .movie{
+  margin: 0px;
     width: 70%;
+    border-radius: 10px;
 }
 
 .movie1{
-    border: 0px solid white;
-    border-radius: 5px;
-    width: 100%;
-    height: auto;
-    background: rgb(47, 47, 47);
-    box-shadow: -2px 5px 5px 0px lightgrey;
-    padding: 0px;
+  margin: 10px;
+    object-fit: cover;
+    z-index: -1;
+    width: 110%;
+    opacity: 6;
+    border-radius: 20px;
     
 }
 
 .movie2{
-    margin-top: 10px;
-    border: 0px solid white;
-    border-radius: 5px;
-    width: 100%;
-    height: auto;
-    background: black;
-    box-shadow: -2px 5px 5px 0px lightgrey;
-    padding: 0px;
-    
+  margin: 0px;
+    object-fit: cover;
+    z-index: -1;
+    width: 110%;
+    opacity: 6;
+    border-radius: 20px;
 }
 .location{
     margin: 20px;
@@ -262,7 +267,11 @@ hr{
     background: white;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: -2px 5px 5px 0px lightgrey;
+    box-shadow: -2px 5px 5px 0px rgb(36, 36, 36);
+}
+.list{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
 }
 
 .contact{
@@ -350,55 +359,42 @@ span{
   }
 
   .post{
-    width: 80%;
-    margin-left: 25px;
-    border-radius: 50px;
-    box-shadow: 0 .5rem 1rem rgba(28, 27, 27, 0.75)!important;
+    width: 75%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(88, 37, 37, 1.75)!important;
 
 
   }
 
-  .poster{
-    box-shadow: 0 .5rem 1rem rgba(28, 27, 27, 0.55)!important;
-    padding: 30px;
+  .posters{
+    box-shadow: 2 .5rem 1rem rgba(28, 27, 27, 0.55)!important;
+    padding: 10px;
+    display: flex;
     border: 0px solid black;
     width:fit-content;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     border-radius: 20px;
   }
 
-  .poster:hover{
-    width: 100%;
+  .wall{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 94%;
+    opacity: 0.2;
+    border-radius: 10px;
   }
 
-  .post-title{
-    margin-left: 50px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    width: 60%;
-    text-align: center;
-    padding: 0.5px;
-    margin-top: 0px;
-    box-shadow: 0 .5rem 1rem rgba(28, 27, 27, 0.55)!important;
-
+  .post:hover{
+    width: 130%;
+    transition: 2s;
+    cursor: pointer;
   }
 
-  .post-title:hover{
-    background: #f8f8f8;
-    color: rgb(11, 11, 11);
-    padding: 0.5px;
-    box-shadow: 0 .5rem 1rem rgba(249, 248, 248, 0.55)!important;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 
-
-  }
 
   /*PAYMENT*/
 
@@ -409,15 +405,19 @@ span{
   
   /* Extra styles for the cancel button */
   .cancelbtn {
+    margin-left: 130px;
     width: auto;
     padding: 10px 18px;
     background-color: green;
+    border-radius: 10px;
+    align-self: center;
   }
   
   
   .container {
     padding: 16px;
-    margin: 20px;
+    width: fit-content;
+    margin: 30px;
     border-radius: 10px;
     box-shadow: 0 .5rem 1rem rgba(20, 20, 20, 0.9)!important;
 
@@ -434,6 +434,18 @@ span{
 
 .steps li{
     background-color: #f6f4f4;
+
+}
+.steps2{
+  box-sizing: border-box;
+  box-shadow: 0 .5rem 1rem rgba(20, 20, 20, 0.2)!important;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+.steps2 li{
+  background-color: #f6f4f4;
 
 }
 
@@ -467,10 +479,10 @@ span{
   /* The Close Button (x) */
   .close {
     position: absolute;
-    right: 30px;
-    top: 20;
-    color: rgb(212, 31, 31);
-    font-size: 35px;
+    right: 20px;
+    top: 0;
+    color: rgb(242, 240, 240);
+    font-size: 45px;
     font-weight: bold;
   }
   

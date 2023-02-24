@@ -16,8 +16,7 @@
           <a href="HOME.html" class="active">HOME</a>
           <div id="myLinks">
             <a onclick="document.getElementById('id01').style.display='block'" >PAYMENTS</a>
-            <a href="#">OUR CONTACTS</a>
-            <a href="#">NEWS</a>
+            <a onclick="document.getElementById('id02').style.display='block'" >CONTACTS</a>
           </div>
 
         <div class="icon1" onclick="myFunction(this)">
@@ -134,29 +133,24 @@
     </div>
 
     <div class="posters">
+      <video src="trailer.mp4" autoplay loop muted  class="wall"></video>
       <div class="poster">
         <img src="black adam.jpg" type="image/jpg" class="post" alt="">
-      <div class="post-title"><h2>Black Adam</h2></div>
       </div>
       <div class="poster">
         <img src="interceptor.jpg" type="image/jpg" class="post" alt="">
-        <div class="post-title"><h2>interceptor</h2></div>
       </div>
             <div class="poster">
         <img src="6underground.jpg" type="image/jpg" class="post" alt="">
-        <div class="post-title"><h2>6 Underground</h2></div>
       </div>
       <div class="poster">
         <img src="Adams project.jpg" type="image/jpg" class="post" alt="">
-        <div class="post-title"><h2>Adams Project</h2></div>
       </div>
       <div class="poster">
         <img src="fury.jpg" type="image/jpg" class="post" alt="">
-        <div class="post-title"><h2>Fury</h2></div>
       </div>
       <div class="poster">
         <img src="Red notice.jpg" type="image/jpg" class="post" alt="">
-        <div class="post-title"><h2>RED NOTICE</h2></div>
       </div>
 
 
@@ -200,9 +194,41 @@
       </div>
     </form>
   </div>
+
+  //contact
+  <div id="id02" class="modal">
+    <form>
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <div class="container" style="background-color:#f1f1f1">
+        <div class="steps2">
+        <h3>REACH US THROUGH!</h3>
+        <ol class="contact-us">
+          <li>Phone/ Whatsapp</li>
+          <ul>
+            <li>0745336418</li>
+            <li>0707789302</li>
+          </ul>
+          <li>EMAIL:</li>
+          <h4>CAESARJJOSHUA@GMAIL.COM</h4>
+        </ol>
+        </div>
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Close</button>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+
   <script>
   // Get the modal
   var modal = document.getElementById('id01');
+  var modal = document.getElementById('id02');
+
   
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
@@ -212,9 +238,6 @@
   }
   </script>
 
-
-<footer class="footer">
-</footer>
 
 
 </body>
