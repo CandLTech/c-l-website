@@ -105,6 +105,7 @@ hr{
     border: 0px solid rgb(227, 229, 235);
     border-radius: 3px;
     background: white;
+    display: flexbox;
 }
 
 .contacts{
@@ -131,19 +132,10 @@ hr{
     text-align: left;
     color: black;
 }
-.entainmentimg{
-  opacity: 0.35;
-  width: 20%;
-  border-radius: 10px;
-}
-.entainmentimg:hover{
-  width: 20%;
-  opacity: 1.75;
-  transition: 1s;
-}
+
 .movie{
   margin: 0px;
-    width: 70%;
+    max-width: 95%;
     border-radius: 10px;
 }
 
@@ -151,8 +143,8 @@ hr{
   margin: 10px;
     object-fit: cover;
     z-index: -1;
-    width: 110%;
     opacity: 6;
+    max-width: 90%;
     border-radius: 20px;
     
 }
@@ -377,6 +369,7 @@ span{
     margin-bottom: 10px;
     margin-top: 0px;
     border-radius: 20px;
+    height: auto;
   }
 
   .wall{
